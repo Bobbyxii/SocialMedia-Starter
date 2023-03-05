@@ -1,0 +1,10 @@
+.Trends {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Trends>span:nth-of-type(2) {
+    font-size: 13px;
+
+}
