@@ -1,0 +1,31 @@
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--cardColor);
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+
+.infoInput {
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+
+.infoForm>div {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.infoForm>Button {
+    background: var(--buttonBg);
+    align-self: flex-end;
+}
